@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Trang Cá Nhân</title>
+</head>
+<body>
+	<a href="#top"></a>
+	<style>
+    .header-img {
+        background-image: url('pexels-bri-schneiter-28802-346529.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 330px;
+        width: 100%;
+    }
+</style>
+<div class="header-img"></div>
+<!-- Import font Poppins 600 -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+<h1 style="
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #2c3e50;
+    font-size:48px;
+">
+    Trang Cá Nhân
+</h1>
+  <div style="float: right; width: 700px; margin-left: 50px;">
+    <iframe src="file:///C:/Users/Admin/Documents/Tr%C3%A2m/sublime%20html/Gi%E1%BB%9Bi%20thi%E1%BB%87u.html" 
+            width="600" 
+            height="600" 
+            style="border:2px solid #3498db; border-radius:8px;">
+    </iframe>
+</div>
+	<h1>I.Thông tin giới thiệu</h1>
+	   <table>
+	   	<tr>
+	       <td><strong>Họ và Tên:</strong></td>
+	       <td> Bùi Đào Khánh Trâm</td>
+	    </tr>
+	    <tr>
+           <td><strong>Lớp:</strong></td>
+	       <td> 12A6 </td>	
+        </tr>
+        <tr>
+    	   <td><strong>Năm sinh:</strong></td>
+    	   <td>25-09-2008</td>
+        </tr>
+        <tr>
+    	  <td><strong>Trường học:</strong></td>
+    	  <td>THPT Trường Định</td>
+        </tr>
+        <tr>
+    	  <td><strong>Quê Quán:</strong></td>
+    	  <td>Đồng Tháp</td>
+        </tr>
+         <tr>
+    	  <td><strong>Món ăn yêu thích:</strong></td>
+    	  <td>Thích hơi nhiều</td>
+        </tr>
+	    </table>
+
+<div 
+    class="right-content">
+    <h1><strong>II.Hình ảnh</strong></h1>
+    <div style="white-space: nowrap;">
+        <img src="p5.jpg" width="200" height="200">
+        <img src="p6.jpg" width="200" height="200">
+    </div>
+    <h1><strong>III.Âm nhạc</strong></h1>
+        <img src="pp.jpg" width="200" height="200">
+<div class="audio-container">
+    <audio src="Grasshopper(草蜢) - Half Time Of Heart(半点心) 'The Forbidden Flower(夏花) OST' (lyrics)'.mp3" controls></audio>
+    <br>
+    <audio src="YTSave.com_YouTube_somewhere-only-we-know-rhianne-cover-Lyr_Media_Sjq_1WRyNBo_007_48k.m4a" controls></audio>
+</div>
+</div>
+       <img src="ppp.jpg" width="200" height="200">
+	<h1> <strong>IV.Video </strong> </h1>
+<video src="The Beauty Of Earth.mp4" controls width="600" poster="q.jpg"></video>
+<h1>V.Thời Khoá Biểu</h1>
+<head>
+<table border="1" cellspacing="1" width=50% height=10%>
+	<tr bgcolor="violet">
+		<th></th>
+		<th>Thứ Hai</th>
+		<th>Thứ Ba</th>
+		<th>Thứ Tư</th>
+		<th>Thứ Năm</th>
+		<th>Thứ Sáu</th>
+	</tr>
+	<tr>
+		<th bgcolor="violet">1</th>
+		<td>Chào Cờ</td>
+		<td>Hoá Học</td>
+		<td>Ngoại Ngữ</td>
+		<td>Toán</td>
+		<td>Vật Lý</td>
+	</tr>
+	<tr>
+		<th bgcolor="violet">2</th>
+		<td>TNHN</td>
+		<td>Hoá Học</td>
+		<td>Ngoại Ngữ</td>
+		<td>Toán</td>
+		<td>Vật Lý</td>
+	</tr>
+	<tr>
+		<th bgcolor="violet">3</th>
+		<td>Ngoại Ngữ</td>
+		<td>GDKTPL</td>
+		<td>Toán</td>
+		<td>Vật Lý</td>
+		<td>TNHN3</td>
+	</tr>
+	<tr>
+		<th bgcolor="violet">4</th>
+		<td>Văn học</td>
+		<td>GDKTPL</td>
+		<td>Tin học</td>
+		<td>Văn học</td>
+		<td>Tin học</td>
+	</tr>
+	<tr>
+		<th bgcolor="violet">5</th>
+		<td>Toán</td>
+		<td>Lịch Sử</td>
+		<td>Lịch sử</td>
+		<td>Văn học</td>
+		<td>Hoá học</td>
+	</tr>
+</table>
+</head>
+<h1>VI.Khảo Sát Sở Shích</h1>
+<form>
+     <label for="hoten">Họ và tên:</label>
+     <input type="text" id="hoten">
+<br><br>
+     <label for="ngaysinh">Ngày sinh:</label>
+     <input type="date" id="ngaysinh">
+<br><br>
+     <label>Giới tính: </label>
+     <input type="radio" id="gioitinhl" name="gioitinh" value="nam">Nam
+     <input type="radio" id="gioitinh2" name="gioitinh" value="nu">Nữ
+<br><br>
+     <label for="sothich">Sở Thích:</label>
+     <input type="text" id="sothich">
+<br><br>
+     <label for="Lido">Lí do:</label>
+     <input type="text" id="Lido">
+<br><br>
+     <input type="submit" value="Gửi thông tin">
+</form>
+<p> Đường dẫn: <a href="https://nlv.gov.vn/"> Thư Viện Quốc Gia </a></p>
+<head>Liên hệ:</head>
+<p> Facebook: <a href="https://www.facebook.com/share/1BK2mj3pms/"> Bùi Đào Khánh Trâm </a></p>
+<a href="#top"> Quay về đầu trang </a>
+    <div style="white-space: nowrap;">
+        <img src="p8.jpg" width="200" height="200">
+        <img src="p8.jpg" width="200" height="200">
+        <img src="p8.jpg" width="200" height="200">
+        <img src="p8.jpg" width="200" height="200">
+        <img src="p8.jpg" width="200" height="200">
+        <img src="p8.jpg" width="200" height="200">
+        <img src="p8.jpg" width="120" height="200">
+    </div>
+</body>
+</html>
